@@ -1,8 +1,9 @@
+/* General styles */
 body {
    background: #000;
 }
 
-/* Fairy lights */
+/* Lights */
  .lightrope {
    text-align: center;
    white-space: nowrap;
@@ -110,14 +111,14 @@ body {
 
 @media only screen and (max-width: 700px) {
   .lightrope {
-    margin-top: 10px;
-    padding-top: 0px;
+    margin-top: 0;
+    padding-top: 0;
   }
 }
 
 
-/* Prompt generator */
 
+/* Random prompt generator */
 header {
   padding: 1em;
   background-color: #ffff80;
@@ -169,7 +170,6 @@ header {
 
 
 }
-
 
 /* Scrollbar */
 ::-webkit-scrollbar {
